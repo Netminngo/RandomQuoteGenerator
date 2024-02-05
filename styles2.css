@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f3057; /* Dark blue background for night theme */
+}
+
+.quote-container {
+    text-align: center;
+    background-color: #1a1a1a; /* Dark background for the quote container */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+blockquote {
+    font-size: 2em;
+    color: #ffffff; /* White text color for the quote in the night theme */
+    margin: 0;
+    padding: 20px;
+    border-left: 5px solid #ffcc29;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+.creator-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #d31919; /* White text color for creator information in the night theme */
+}
